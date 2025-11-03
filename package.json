@@ -16,10 +16,17 @@
   "license": "MIT",
   "description": "Atividade sobre pet shop com baanco de dados",
   "dependencies": {
-    "@prisma/client": "^6.16.3",
+    "@prisma/client": "^6.18.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "mysql2": "^3.15.3",
     "nodemon": "^3.1.10",
-    "prisma": "^6.16.3"
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "prisma": "^6.18.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.3"
   }
 }

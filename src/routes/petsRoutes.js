@@ -3,10 +3,16 @@ import * as PetsController from './../controllers/petsController.js'
 
 const router = Router();
 
+//Rota GetAll em /
 router.get("/", PetsController.listarTodos);
-router.get("/:id", PetsController.listarUm);
-router.post("/", PetsController.criar);
-router.delete("/:id", PetsController.deletar);
-router.put("/", PetsController.atualizar);
+
+//Rota do GetById
+router.get("/:id", PetsController.listarUm)
+
+router.post("/", PetsController.criar)
+
+router.delete("/:id", PetsController.apagar)
+
+router.put("/:id", PetsController.atualizar)
 
 export default router;
