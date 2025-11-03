@@ -11,7 +11,7 @@ model Pets {
   id          Int      @id @default(autoincrement())
   nome        String
   especie     String
-  idade       String?
+  idade       Int
   dono        String
 
   @@map("Petshop")
